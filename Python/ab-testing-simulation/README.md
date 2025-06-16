@@ -10,17 +10,16 @@ This project simulates an A/B test measuring the impact of a digital marketing c
 - Built a lightweight Streamlit dashboard to explore results
 
 ## Folder Structure
+```
 ab-testing-simulation/
-│
 ├── app/ # Streamlit app for interactive dashboard
-│ └── streamline_app.py # Main dashboard script
-│ └── requirements.txt  # Dependencies
+│   ├── streamlit_app.py # Main dashboard script
+│   └── requirements.txt # Dependencies
 ├── notebooks/ # Jupyter notebooks for simulation and analysis
-│ └── ab_test_simulation.ipynb
-│
+│   └── ab_test_simulation.ipynb
 ├── data/ # Data files used or generated
-│
-├── README.md # Project overview and instructions
+└── README.md # Project overview and instructions
+```
 
 All code and files are self-contained and reproducible. See the notebook for simulation logic and the `app/` folder for the deployable Streamlit app.
 
