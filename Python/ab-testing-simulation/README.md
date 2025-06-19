@@ -50,18 +50,11 @@ Note: Simulated data are saved in the data folder. To reproduce the result, you 
 ## Streamlit Dashboard
 The dashboard calculates statistics for a simulated A/B test under different combinations of baseline conversion rates, expected uplift, and sample size per group. The dashboard assumes the sample sizes are equal for the control and treatment groups.
 To deploy this dashboard on your own machine, follow the steps below:
-1. Clone the Repository
-git clone https://github.com/your-username/ab-testing-simulation.git
-cd ab-testing-simulation/app
-2. Create a Virtual Environment (Optional)
-python -m venv venv
-source venv/bin/activate       # macOS/Linux
-venv\Scripts\activate          # Windows
-3. Install Required Packages
-See the requirements.txt file under app folder for the versions used to construct this dashboard
-4. Run the Dashboard
-In the same folder where streamlit_app.py is located, run:
-streamlit run streamlit_app.py
+1. Clone the repository (https://github.com/yumikosiegfried/portfolio_project)
+2. In the terminal, set cd to the cloned repository
+3. Create a virtual environment (Optional)
+4. Install required libraries: See the requirements.txt file under app folder for Python library versions used for this dashboard. You can install the requirements by entering "pip install -r requirements.txt" in the terminal, or install them manually
+5. In the terminal, run the Dashboard by entering "streamlit run Python/ab-testing-simulation/app/streamlit_app.py"
 Your dashboard should open in your default browser.
 
 ## Contact
