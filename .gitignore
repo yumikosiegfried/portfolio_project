@@ -6,3 +6,4 @@ env/
 .venv/
 
 .idea/
+Python/fraud-detection/data/creditcard.csv
