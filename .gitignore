@@ -7,3 +7,6 @@ env/
 
 .idea/
 Python/fraud-detection/data/creditcard.csv
+Python/fraud-detection/data/X_res.pkl
+Python/fraud-detection/data/results.pkl
+Python/fraud-detection/data/X_train_raw.pkl

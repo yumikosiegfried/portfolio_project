@@ -13,9 +13,11 @@ The goal is to find the best model for predicting fraudulent transactions in rea
 
 ## Dataset
 
-The input dataset (`creditcard.csv`) is **NOT included** in this repository due to its large size (150MB+) and GitHub file size limits. 
+The input dataset (`creditcard.csv`) as well as X_res.pkl, results.pkl, and X_train_raw.pkl are **NOT included** in this repository due to its large size (100MB+) and GitHub file size limits. 
 
-One can download the dataset directly from Kaggle: <https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data>.
+One can download the original csv file directly from Kaggle: <https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data>.
+
+The .pkl files should be created automatically by running the notebooks.
 
 If one wishes to replicate this project, after downloading the dataset from Kaggle, save the `creditcard.csv` file in the following directory within the project: ".../portfolio_project/Python/fraud-detection/data"
 
