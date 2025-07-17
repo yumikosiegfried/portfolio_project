@@ -84,10 +84,11 @@ For tuned models:
 - Accepts raw transaction data and returns fraud probability and predicted label
 
 **Sample Application**
-
+```
 new_data = df.sample(n = 1, random_state = 42)
 result = predict_fraud(new_data)
 print(result[['fraud_probability','predicted_fraud']])
+```
 
 ## Note
 
