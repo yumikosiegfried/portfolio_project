@@ -13,7 +13,7 @@ The goal is to find the best model for predicting fraudulent transactions in rea
 
 ## Dataset
 
-The input dataset (`creditcard.csv`) as well as X_res.pkl, results.pkl, and X_train_raw.pkl are **NOT included** in this repository due to its large size (100MB+) and GitHub file size limits. 
+The input dataset (`creditcard.csv`) as well as X_res.pkl, results.pkl, and X_train_raw.pkl are **NOT included** in this repository due to their large sizes (100MB+) and GitHub file size limits. 
 
 One can download the original csv file directly from Kaggle: <https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud/data>.
 
@@ -84,6 +84,7 @@ For tuned models:
 - Accepts raw transaction data and returns fraud probability and predicted label
 
 **Sample Application**
+
 new_data = df.sample(n = 1, random_state = 42)
 result = predict_fraud(new_data)
 print(result[['fraud_probability','predicted_fraud']])
